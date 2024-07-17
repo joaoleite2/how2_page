@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       animation:{
-        'infinite-scroll': 'infinite-scroll 25s linear infinite'
+        'infinite-scroll': 'infinite-scroll 5s linear infinite'
       },
       keyframes:{
-        'infinite-scoll':{
+        'infinite-scroll':{
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' }
         }
