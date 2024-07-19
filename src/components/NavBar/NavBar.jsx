@@ -44,9 +44,9 @@ const NavBar = () => {
             <button className="px-4 py-2 bg-sky-400">Theme</button>
             <button className="px-4 py-2 bg-blue-400">Experimente grátis</button>
           </div>
-          <div className="relative">
+          <div className="relative lg:hidden">
             <button onClick={menuClick}>
-              <HiMenuAlt3 className="text-4xl lg:hidden text-purple-700" />
+              <HiMenuAlt3 className="text-4xl text-purple-700" />
             </button>
             {!open ? (
               null
