@@ -26,8 +26,8 @@ const Carousel = () => {
   
   return(
     <>
-      <div className="w-full bg-purple-900 flex justify-center p-4 flex-nowrap overflow-hidden">
-        <ul className="flex items-center [&_li]:mx-8">
+      <div className="w-full bg-purple-900 flex justify-center p-4 flex-nowrap overflow-hidden h-20">
+        {/* <ul className="flex items-center [&_li]:mx-8 anim">
           {[...carouselItems, ...carouselItems].map((item) => {
             return(
               <li
@@ -37,7 +37,7 @@ const Carousel = () => {
               /></li>
             )
           })}
-        </ul>
+        </ul> */}
       </div>
     </>
   )

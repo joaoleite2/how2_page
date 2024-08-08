@@ -36,7 +36,7 @@ const NavBar = () => {
           <ul className="flex gap-12 max-lg:hidden">
             {navItems.map((element,index) =>{
               return(
-                <li key={index}>{element.item}</li>
+                <li key={index} className="cursor-pointer">{element.item}</li>
               )
             })}
           </ul>
@@ -56,7 +56,7 @@ const NavBar = () => {
                 {navItems.map((item, index) => {
                   return(
                     <li key={index}
-                      className="py-4 px-5 w-full text-slate-600"
+                      className="py-4 px-5 w-full text-slate-600 cursor-pointer"
                     >{item.item}</li>
                   )
                 })}
